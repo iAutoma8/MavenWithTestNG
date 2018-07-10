@@ -1,38 +1,35 @@
 package Jen.JenkinsBuild;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
+public class AppTest extends App 
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+@Test(priority=1)
+public void verifyConditionOne()
+{
+	Assert.assertEquals(false, setData());
+	
+	
+}
+@Test(priority=2)
+public void verifyConditionTwo()
+{
+	
+	Assert.assertEquals(true, setData());
+	
+}
+@Test(priority=3)
+public void verifyConditionThree()
+{
+	
+	Assert.assertTrue(setData());
+	
+}
+	
+	
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
 }
