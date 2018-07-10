@@ -147,9 +147,9 @@
                   <a name="verifyConditionThree">
                   </a> <!-- verifyConditionThree -->
                   <span class="method-name">verifyConditionThree</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at Jen.JenkinsBuild.AppTest.verifyConditionThree(AppTest.java:29)
-... Removed 32 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at Jen.JenkinsBuild.AppTest.verifyConditionThree(AppTest.java:43)
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -158,9 +158,9 @@
                   <a name="verifyConditionTwo">
                   </a> <!-- verifyConditionTwo -->
                   <span class="method-name">verifyConditionTwo</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
-	at Jen.JenkinsBuild.AppTest.verifyConditionTwo(AppTest.java:22)
-... Removed 34 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at Jen.JenkinsBuild.AppTest.verifyConditionTwo(AppTest.java:30)
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -237,20 +237,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyConditionOne')
 data.setCell(0, 2, 'Jen.JenkinsBuild.AppTest')
-data.setCell(0, 3, 19);
+data.setCell(0, 3, 11);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyConditionTwo')
+data.setCell(1, 1, 'verifyConditionThree')
 data.setCell(1, 2, 'Jen.JenkinsBuild.AppTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyConditionThree')
+data.setCell(2, 1, 'verifyConditionTwo')
 data.setCell(2, 2, 'Jen.JenkinsBuild.AppTest')
 data.setCell(2, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 ms</span>
+              <span class="suite-total-time">Total running time: 11 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -285,13 +285,13 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyConditionTwo</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyConditionThree</span>
-                <span class="method-start">36 ms</span>
+                <span class="method-start">20 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

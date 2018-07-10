@@ -11,5 +11,12 @@ public class App {
 		
 
 	}
+	
+	public boolean setValue() {
+		return true;
+		
+
+	}
+
 
 }

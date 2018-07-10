@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.258" tests="3" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.442" tests="3" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="MavenBuild"/>
@@ -13,7 +13,7 @@
     <property name="POM_ARTIFACTID" value="JenkinsBuild"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -29,8 +29,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="MavenBuild"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/MavenBuild/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/MavenBuild/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
     <property name="OneDrive" value="C:\Users\Admin\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
     <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="85201628a4d113afc3340e92100caf6195383486"/>
@@ -42,7 +42,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="BUILD_ID" value="4"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -59,13 +59,13 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
     <property name="=ExitCode" value="00000001"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/MavenBuild/2/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/MavenBuild/4/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\Admin\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.171-b11"/>
     <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="85201628a4d113afc3340e92100caf6195383486"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="42f40753d983aaa5c768e786af988e3f6fc44c94"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/MavenBuild/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="NODE1129"/>
@@ -82,7 +82,7 @@
     <property name="POM_GROUPID" value="Jen"/>
     <property name="user.home" value="C:\Users\Admin"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-MavenBuild-2"/>
+    <property name="BUILD_TAG" value="jenkins-MavenBuild-4"/>
     <property name="JENKINS_SERVER_COOKIE" value="859243fb557d1d46"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -96,7 +96,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
     <property name="java.class.path" value="C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\Admin\.jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 55577"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\Admin\.jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 57068"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -112,7 +112,7 @@
     <property name="HUDSON_HOME" value="C:\Users\Admin\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/MavenBuild/2/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/MavenBuild/4/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -125,13 +125,13 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\Users\Admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="4"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="8e0a"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\Windows"/>
-    <property name="GIT_COMMIT" value="42f40753d983aaa5c768e786af988e3f6fc44c94"/>
+    <property name="GIT_COMMIT" value="5d1466344eb7461c4b7b3319f7885c7c62ee869f"/>
     <property name="=C:" value="C:\"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
@@ -143,15 +143,19 @@
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="GIT_URL" value="C:\Users\Admin\eclipse-workspace\JenkinsBuild\.git"/>
   </properties>
-  <testcase name="verifyConditionOne" classname="Jen.JenkinsBuild.AppTest" time="0.02"/>
-  <testcase name="verifyConditionTwo" classname="Jen.JenkinsBuild.AppTest" time="0.013">
-    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
-	at Jen.JenkinsBuild.AppTest.verifyConditionTwo(AppTest.java:22)
+  <testcase name="verifyConditionOne" classname="Jen.JenkinsBuild.AppTest" time="0.011"/>
+  <testcase name="verifyConditionTwo" classname="Jen.JenkinsBuild.AppTest" time="0.007">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at Jen.JenkinsBuild.AppTest.verifyConditionTwo(AppTest.java:30)
 </failure>
+    <system-out><![CDATA[Assert Failed
+]]></system-out>
   </testcase>
   <testcase name="verifyConditionThree" classname="Jen.JenkinsBuild.AppTest" time="0">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at Jen.JenkinsBuild.AppTest.verifyConditionThree(AppTest.java:29)
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at Jen.JenkinsBuild.AppTest.verifyConditionThree(AppTest.java:43)
 </failure>
+    <system-out><![CDATA[Assert Failed
+]]></system-out>
   </testcase>
 </testsuite>
